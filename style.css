@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+/* header */
+/* nav  */
+nav {
+    margin: 20px;
+
+}
+
+nav a {
+
+    margin-left: 30px;
+
+
+}
+
+nav img,
+a {
+    vertical-align: middle;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: #228B22;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+}
+
+nav .sl:hover {
+    color: white;
+    background-color: #228B22;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.logo {
+    height: 150px;
+}
+
+/* nav  */
+
+
+/* header section 2 */
+
+.hs2,
+.hs2 a {
+    background-color: #46BC5B;
+    padding: 3px;
+    margin: 0px;
+    color: white;
+
+}
+
+/* header section 2 */
+
+
+
+/* header section 3 */
+
+.hs3 {
+    width: 100%;
+}
+
+.hs3 img {
+    width: 100%;
+}
+
+/* header section 3 */
+#link {
+    /* text-align: center; */
+    margin: auto;
+    font-size: 20px;
+    text-decoration: none;
+    display: inline-block;
+    border-bottom: 2px solid #046D38;
+    padding-bottom: 3px;
+    margin: 12px;
+    margin-left: 50%;
+}
+
+/* header section 3 */
+/* header */
+
+/* main */
+.ms1, .ms2, .ms3, .ms4 {
+    vertical-align: top;
+    /* margin: auto; */
+}
+
+.ms1d1, .ms2d1, .ms3d1, .ms4d1 {
+    display: inline-block;
+    width: 350px;
+    height: 200px;
+    background-image: url("ms2-img.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+}
+.ms2d1
+{
+    background-image: url("ms2\ img2.jpg");
+}
+.ms3d1
+{
+    background-image: url("ms2\ img3.jpg");
+}
+
+.ms4d1
+{
+    background-image: url("ms2\ img4.jpg");
+}
+
+.ms1d2, .ms2d2, .ms3d2, .ms4d2 {
+    display: inline-block;
+    width: 50%;
+    vertical-align: middle;
+    margin-left: 20px;
+    margin-top: -150px;
+    line-height: 50px;
+
+
+}
+
+.ms1b {
+    background-color: #046D38;
+    color: white;
+    font-size: 18px;
+    padding: 7px;
+    border: 0px solid;
+    border-radius: 20px;
+    margin-left: 12px;
+}
+
+#new {
+    margin: 12px;
+    margin-left: 50%;
+    font-size: 20px;
+    border-bottom: 2px solid #046D38;
+    padding-bottom: 3px;
+    width: fit-content;
+}
+
+
+.m1,
+.m2,
+.m3 {
+    margin: 12px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.m1 div,
+.m2 div,
+.m3 div {
+    width: 30%;
+
+}
+
+.ms21 div {
+    height: 300px;
+    width: 100%;
+    background-image: url("Narsingi\ \(1\).png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.ms22 div {
+    height: 300px;
+    width: 100%;
+    background-image: url("Sachin\ -\ Surat.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.ms23 div {
+    background-image: url("Nirmal.png");
+    height: 300px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.ms24 div {
+    background-image: url("Banur.png");
+    height: 300px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.ms25 div {
+    background-image: url("Palm\ Garden.png");
+    height: 300px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.ms26 div {
+    background-image: url("Ghatkopar\ East.png");
+    height: 300px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.ms27 div {
+    background-image: url("Dwarka\ Township\ -\ Chakan.png");
+    height: 300px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.ms28 div {
+    background-image: url("Akshaya\ nagar.png");
+    height: 300px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.ms29 div {
+    background-image: url("Gangapur.png");
+    height: 300px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.ms21 div p,
+.ms22 div p,
+.ms23 div p,
+.ms24 div p,
+.ms25 div p,
+.ms26 div p,
+.ms27 div p,
+.ms28 div p,
+.ms29 div p {
+    width: fit-content;
+
+    color: white;
+    /* padding:12px ; */
+    background-color: red;
+    height: fit-content;
+}
+
+
+.nar {
+    margin: auto;
+    width: fit-content;
+}
+
+/* main */
+
+/* footer */
+.footer {
+    height: 60px;
+    width: 100%;
+    display: flex;
+    background-color: #384552;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+/* footer */
